@@ -1,0 +1,27 @@
+{
+  "request_id": "REQ-001",
+  "request_type": "meeting",
+  "requester": "student_01",
+  "confidence": 0.92,
+  "entities": {
+    "participants": ["Lina"],
+    "title": "Project review",
+    "date": "next Tuesday",
+    "time": "2 PM",
+    "duration_minutes": 30,
+    "assignee": "",
+    "due_date": "",
+    "record_reference": ""
+  },
+  "requested_actions": [
+    "create_calendar_event"
+  ],
+  "missing_information": [],
+  "ambiguity_notes": [
+    "The relative date should be resolved by the test environment."
+  ],
+  "policy_flags": [],
+  "approval_required": true,
+  "recommended_next_step": "continue_to_approval",
+  "rationale": "The request is a supported meeting request with a participant, date, time, and duration."
+}
