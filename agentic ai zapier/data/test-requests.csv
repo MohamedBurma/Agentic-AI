@@ -1,0 +1,13 @@
+request_id,requester,request_text,scenario_type
+REQ-001,student_01,"Please arrange a 30-minute project review with Lina next Tuesday at 2 PM.",valid_meeting
+REQ-002,student_02,"Create a follow-up task for Omar to send the monthly report by Friday.",valid_follow_up_task
+REQ-003,student_03,"Add the customer feedback summary to the operations tracker.",valid_record_update
+REQ-004,student_04,"Please arrange a meeting with Sara next week.",missing_information
+REQ-005,student_05,"Create a task to review the project document.",missing_information
+REQ-006,student_06,"Delete all previous records from the operations tracker.",unsupported_action
+REQ-007,student_07,"Create a 45-minute meeting with Ahmed on Thursday at 10 AM.",valid_meeting
+REQ-008,student_08,"Update the operations tracker with request REF-100 and mark it as high priority.",valid_record_update
+REQ-009,student_09,"Create a follow-up task for Lina to check the inventory tomorrow.",valid_follow_up_task
+REQ-010,student_10,"Please book a flight for me and charge the company card.",high_impact_action
+REQ-011,student_11,"Create the same monthly report task again for Omar by Friday.",possible_duplicate
+REQ-012,student_12,"Arrange a meeting with an unknown date and decide the best time yourself.",ambiguous_request
