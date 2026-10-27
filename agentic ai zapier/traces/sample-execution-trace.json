@@ -1,0 +1,21 @@
+{
+  "request_id": "REQ-001",
+  "original_request": "Please arrange a 30-minute project review with Lina next Tuesday at 2 PM.",
+  "request_type": "meeting",
+  "confidence": 0.98,
+  "requested_actions": [
+    "create_calendar_event"
+  ],
+  "missing_information": [
+    "Lina's calendar identity and availability"
+  ],
+  "policy_result": "passed_with_human_review",
+  "approval_required": true,
+  "approval_status": "approved",
+  "action_key": "REQ-001_create_calendar_event",
+  "tool_used": "mock_calendar_google_sheet",
+  "result": "success",
+  "retry_count": 0,
+  "final_state": "executed",
+  "note": "This trace represents a synthetic test run. Replace values if the actual Zap History result is different."
+}
